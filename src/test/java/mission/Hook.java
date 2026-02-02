@@ -51,12 +51,12 @@ public class Hook extends BasePage {
             e.printStackTrace();
         }
 
-//        driver.close();
-//        //Handling the NoSuchSessionException with Firefox browser after close
-//        try {
-//            driver.quit();
-//        } catch (NoSuchSessionException ex) {
-//        }
+        driver.close();
+        //Handling the NoSuchSessionException with Firefox browser after close
+        try {
+            driver.quit();
+        } catch (NoSuchSessionException ex) {
+        }
     }
 }
 
